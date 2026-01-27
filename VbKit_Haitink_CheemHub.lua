@@ -12,7 +12,7 @@ if BF[game.PlaceId] then
     repeatwait()until game:IsLoaded() and game.Players.LocalPlayer
 
     -- Lấy code script
-    local scriptCode = game:HttpGet("https://raw.githubusercontent.com/diquyetdinh25-glitch/Vcheem/refs/heads/main/CheemHub_VERSION1_obf.lua")
+    local scriptCode = game:HttpGet("https://raw.githubusercontent.com/diquyetdinh25-glitch/Vcheem/main/CheemHub_VERSION1_obf.lua")
 
     -- Biên dịch & chạy
     local run = loadstring(scriptCode)
